@@ -23,10 +23,12 @@ public class MainActivity extends AppCompatActivity {
         division.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                float help =0, divi=0,divo=0;
+               float help =0, divi=0,divo=0;
 
                 if(!dividend.getText().toString().isEmpty() && !divisor.getText().toString().isEmpty())
                 {
+
+
                     try {
                         divi = Float.parseFloat(dividend.getText().toString());
                         divo = Float.parseFloat(divisor.getText().toString());
